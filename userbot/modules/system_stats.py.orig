@@ -137,8 +137,12 @@ async def amireallyalive(alive):
 	                 "===================== \n"
                      f"`User : `{DEFAULTUSER} \n"
 		             "===================== \n"
+<<<<<<< HEAD
 	                  " \n  ( ´◡‿ゝ◡`) \n"
 	                  f"Ah, I see you're a man of culture as well. \n")
+=======
+                     f"__Running on {UPSTREAM_REPO_BRANCH}__ \n")
+>>>>>>> fe9ac1c98a6c4ca6620bd23ca169eb704ae73294
 
 
 @register(outgoing=True, pattern="^.aliveu")
