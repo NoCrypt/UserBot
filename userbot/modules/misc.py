@@ -132,7 +132,6 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         "[Click here](https://github.com/MoveAngel/One4uBot) to open One4uBot's GitHub page."
     	"\nand my repo is private")
-	)
 
 
 @register(outgoing=True, pattern="^.raw$")
